@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Carta de ventas de Carlos Martínez: criterio técnico para evitar errores caros en la construcción de piscinas." />
+  <title>Carlos Martínez | Piscinas bien ejecutadas desde el principio</title>
+
+  <style>
+    :root{
+      --paper:#f2eadb;
+      --paper-2:#e9dfcd;
+      --ink:#1b1a18;
+      --muted:#6e685f;
+      --line:#cfc3ae;
+      --button:#1b1a18;
+      --button-text:#fffaf0;
+      --max:760px;
+    }
+
+    *{box-sizing:border-box}
+
+    html{scroll-behavior:smooth}
+
+    body{
+      margin:0;
+      background:
+        radial-gradient(circle at 20% 10%, rgba(255,255,255,.45), transparent 35%),
+        linear-gradient(180deg,var(--paper),var(--paper-2));
+      color:var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height:1.55;
+    }
+
+    .page{
+      width:min(calc(100% - 36px), var(--max));
+      margin:0 auto;
+      padding:54px 0 72px;
+    }
+
+    .brand{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:.76rem;
+      font-weight:800;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      margin-bottom:62px;
+    }
+
+    h1,h2{
+      line-height:1.08;
+      letter-spacing:-.035em;
+      margin:0;
+      font-weight:700;
+    }
+
+    h1{
+      font-size:clamp(2.35rem,8vw,4.6rem);
+      max-width:720px;
+    }
+
+    h2{
+      font-size:clamp(1.85rem,5vw,3rem);
+      margin-top:70px;
+    }
+
+    .lead{
+      margin-top:30px;
+      font-size:clamp(1.16rem,2.4vw,1.38rem);
+      max-width:680px;
+    }
+
+    p{
+      font-size:1.13rem;
+      margin:22px 0;
+    }
+
+    .stack{
+      border-left:3px solid var(--ink);
+      margin:40px 0;
+      padding:6px 0 6px 26px;
+      font-size:clamp(1.45rem,4vw,2.15rem);
+      line-height:1.35;
+      font-weight:700;
+    }
+
+    .stack span{
+      display:block;
+    }
+
+    .rule{
+      width:100%;
+      border:0;
+      border-top:1px solid var(--line);
+      margin:62px 0;
+    }
+
+    .form-box{
+      margin:48px 0;
+      padding:30px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.20);
+    }
+
+    .form-box strong{
+      display:block;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:1rem;
+      margin-bottom:8px;
+    }
+
+    .form-box p{
+      margin:0 0 18px;
+      font-size:.98rem;
+      color:var(--muted);
+      font-family:Arial,Helvetica,sans-serif;
+      line-height:1.45;
+    }
+
+    form{
+      display:flex;
+      gap:10px;
+    }
+
+    input[type="email"]{
+      flex:1;
+      min-width:0;
+      border:1px solid #928778;
+      background:#fffdf8;
+      color:var(--ink);
+      border-radius:0;
+      padding:15px 14px;
+      font-size:1rem;
+      outline:none;
+    }
+
+    input[type="email"]:focus{
+      border-color:var(--ink);
+      box-shadow:0 0 0 1px var(--ink);
+    }
+
+    button{
+      appearance:none;
+      border:1px solid var(--button);
+      background:var(--button);
+      color:var(--button-text);
+      padding:15px 22px;
+      font-family:Arial,Helvetica,sans-serif;
+      font-size:.94rem;
+      font-weight:800;
+      cursor:pointer;
+      white-space:nowrap;
+    }
+
+    button:hover{opacity:.88}
+
+    .small{
+      font-family:Arial,Helvetica,sans-serif;
+      color:var(--muted);
+      font-size:.78rem;
+      margin-top:12px;
+    }
+
+    .signature{
+      margin-top:42px;
+      font-size:1.08rem;
+    }
+
+    .signature strong{
+      display:block;
+      font-size:1.25rem;
+      margin-top:7px;
+    }
+
+    footer{
+      padding-top:18px;
+      margin-top:68px;
+      border-top:1px solid var(--line);
+      font-family:Arial,Helvetica,sans-serif;
+      color:var(--muted);
+      font-size:.75rem;
+    }
+
+    .status{
+      display:none;
+      font-family:Arial,Helvetica,sans-serif;
+      margin-top:14px;
+      font-size:.9rem;
+      font-weight:700;
+    }
+
+    @media(max-width:620px){
+      .page{padding-top:34px}
+      .brand{margin-bottom:42px}
+      form{flex-direction:column}
+      button{width:100%}
+      .form-box{padding:22px}
+      p{font-size:1.06rem}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="brand">Carlos Martínez · Piscinas</div>
+
+    <h1>Te has dado cuenta tú también, ¿no?</h1>
+
+    <p class="lead">
+      Todas las empresas de piscinas parecen decir exactamente lo mismo.
+    </p>
+
+    <div class="stack">
+      <span>Calidad.</span>
+      <span>Profesionalidad.</span>
+      <span>Experiencia.</span>
+      <span>“La piscina de tus sueños”.</span>
+    </div>
+
+    <p>
+      Y suenan igual porque, en demasiados casos, funcionan igual.
+    </p>
+
+    <p>
+      El problema que veo hoy en el sector no es que falten empresas capaces de vender piscinas.
+      De esas hay muchas.
+    </p>
+
+    <p>
+      Lo que falta es gente que sepa hacerlas bien, detectar un problema antes de que se convierta
+      en una reparación y dirigir una obra con criterio técnico de principio a fin.
+    </p>
+
+    <div class="form-box">
+      <strong>Recibe los criterios que utilizo antes de aceptar una obra.</strong>
+      <p>Deja tu email. Sin llamadas, sin WhatsApp y sin formularios interminables.</p>
+
+      <form class="lead-form">
+        <input type="email" name="email" placeholder="Tu email" autocomplete="email" required />
+        <button type="submit">Quiero recibirlo</button>
+      </form>
+
+      <div class="status" aria-live="polite"></div>
+      <div class="small">Solo se solicita tu dirección de correo electrónico.</div>
+    </div>
+
+    <hr class="rule" />
+
+    <h2>He visto desaparecer una generación entera de oficio.</h2>
+
+    <p>
+      Llevo años viendo cómo profesionales de obra de mi generación han ido saliendo del sector.
+      El problema es que no han sido sustituidos al mismo ritmo por profesionales con la misma preparación.
+    </p>
+
+    <p>
+      Al mismo tiempo, el sector de la piscina mueve dinero. Y donde hay dinero aparecen empresas
+      muy buenas vendiendo, creciendo y captando proyectos.
+    </p>
+
+    <p>
+      Pero vender una piscina y ejecutar una piscina son dos disciplinas distintas.
+    </p>
+
+    <p>
+      Cuando una empresa vende más obras de las que su estructura técnica puede controlar,
+      el problema no aparece en la firma del presupuesto.
+    </p>
+
+    <p>
+      Aparece semanas o meses después: errores de ejecución, retrasos, repasos, sobrecostes,
+      clientes enfadados y trabajos que hay que volver a hacer.
+    </p>
+
+    <h2>Mi trabajo empieza antes de que aparezca ese problema.</h2>
+
+    <p>
+      Soy Carlos Martínez.
+    </p>
+
+    <p>
+      He pasado por la obra desde abajo hasta asumir responsabilidades de dirección.
+      Eso me permite mirar una piscina no como una fotografía bonita, sino como una obra que debe funcionar,
+      durar y estar bien resuelta técnicamente.
+    </p>
+
+    <p>
+      Mi criterio es sencillo: una incidencia evitada antes de ejecutar cuesta mucho menos que una incidencia
+      corregida después.
+    </p>
+
+    <div class="form-box">
+      <strong>Quiero que recibas primero el criterio técnico, no un discurso comercial.</strong>
+      <p>Deja tu email y recibirás el contenido cuando esté disponible.</p>
+
+      <form class="lead-form">
+        <input type="email" name="email" placeholder="Tu email" autocomplete="email" required />
+        <button type="submit">Dejar mi email</button>
+      </form>
+
+      <div class="status" aria-live="polite"></div>
+      <div class="small">La única acción de esta página es dejar el correo electrónico.</div>
+    </div>
+
+    <h2>Una buena piscina empieza mucho antes de llenarla de agua.</h2>
+
+    <p>
+      Empieza en las decisiones que casi nadie ve.
+    </p>
+
+    <p>
+      Preparación, niveles, estructura, instalaciones, secuencia de obra, materiales,
+      coordinación de equipos y control de ejecución.
+    </p>
+
+    <p>
+      Cuando esas decisiones se toman bien, el resultado parece sencillo.
+      Cuando se toman mal, alguien termina pagando la diferencia.
+    </p>
+
+    <p>
+      Mi objetivo es que esa persona no seas tú.
+    </p>
+
+    <div class="form-box">
+      <strong>Accede a las próximas publicaciones y criterios técnicos.</strong>
+      <p>Introduce únicamente tu email.</p>
+
+      <form class="lead-form">
+        <input type="email" name="email" placeholder="Tu email" autocomplete="email" required />
+        <button type="submit">Recibir por email</button>
+      </form>
+
+      <div class="status" aria-live="polite"></div>
+      <div class="small">Sin navegación, redes sociales ni acciones secundarias.</div>
+    </div>
+
+    <div class="signature">
+      Un saludo,
+      <strong>Carlos Martínez</strong>
+      Profesional del sector de la piscina
+    </div>
+
+    <footer>
+      Esta página tiene un único objetivo: recoger solicitudes mediante correo electrónico.
+    </footer>
+  </main>
+
+  <script>
+    /*
+      PRUEBA DE LA LANDING
+      -------------------
+      Ahora mismo el formulario valida el email y muestra una confirmación,
+      pero NO envía el email a ninguna base de datos.
+
+      Para recoger emails de verdad, cambia FORM_ENDPOINT por el endpoint
+      de Formspree, Brevo, ConvertKit, Mailchimp o tu propia API.
+    */
+    const FORM_ENDPOINT = "";
+
+    document.querySelectorAll(".lead-form").forEach((form) => {
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const status = form.parentElement.querySelector(".status");
+        const email = form.querySelector('input[name="email"]').value.trim();
+
+        if (!email) return;
+
+        if (!FORM_ENDPOINT) {
+          status.style.display = "block";
+          status.textContent = "Formulario correcto. Falta conectar el destino donde se guardarán los emails.";
+          return;
+        }
+
+        try {
+          const response = await fetch(FORM_ENDPOINT, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "Accept": "application/json"
+            },
+            body: JSON.stringify({ email })
+          });
+
+          if (!response.ok) throw new Error("Error al enviar");
+
+          form.reset();
+          status.style.display = "block";
+          status.textContent = "Email recibido correctamente.";
+        } catch (error) {
+          status.style.display = "block";
+          status.textContent = "No se ha podido enviar. Inténtalo de nuevo.";
+        }
+      });
+    });
+  </script>
+</body>
+</html>
